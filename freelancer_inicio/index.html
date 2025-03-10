@@ -5,12 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desing Freelancer</title>
+    <!-- esto hace que el archivo se mas rapido que es el PRELOAD -->
+     <!-- as -> solo indica los que es -->
+    <link rel="preload" href="css/styles.css" as="stytle">
+    <!-- Creando una hoja de estilo externa -->
+     <!-- rel es la relacion con el documento actual -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- <style> esto es para darle estilo en el mismo css    </style> -->
+     <!-- El estilo siempre ira en head, Esto es un ejemplo de como hacerlo de forma manual desde el html -->
+     <!-- <style>
+        h1{
+            /* valor */
+            text-align: center;
+            color: brown;
+             /* Esta propiedad hace que todo sea mayuscula o minuscula */
+             /* tambien mencionar que esto funciona con mayusculas */
+            text-transform: uppercase;
+        }
+     </style> -->
+
 </head>
 <!-- si dejo un monton de espacios a html no le importa -->
 <body>
     <header>
         <!-- las H se ajustan de acuerdo a que es as importante y llegan hasta H6 -->
-        <h1>Camilo Raul Benitez Siguenza</h1>
+         <!-- span es una etiqueta para partir el efecto de la etiqueta mayor -->
+        <h1>Camilo Raul Benitez Siguenza <span>Freelancer</span></h1>
     </header>
     
     <!-- aqui ira el menu de navegacion -->
