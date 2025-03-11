@@ -1,21 +1,27 @@
 html{
     font-size: 62.5%;
 }
+/* NO ES RECOMENDAMEBLE ESCRIBIR CON ID POR QUE ES UN #POR CADA ID
+#CLIENTE{
+XDXDD
+}
 
+ESTO YA QUE LAS CLASES SON REUTILIZABLES */
 body{
     font-size: 16px;/* 1 rem es igual a 10px */
 }
 /* CON LOS PRIMEROS BLOQUES DE CODIGO PODEMOS ESCRIBIR EN REM EN VEZ DE PIXELES */
 
 /* REM HACE QUE SE ADAPTE A CUALQUIER DISPOSITIVO */
-h1{
+/* Las clases van con . */
+.titulo{
     /* valor */
     text-align: center;
     font-size: 3.8rem;
 
 }
 
-span{
+h1 span{
     /* 
     Todo esto son unidades de medidas
     px - es el elemneto mas normal de medida
@@ -23,3 +29,6 @@ span{
     rem - la unidad de medida para eso pixeles bajos*/
     font-size: 2rem;
 }
+
+/* si pones h1 span el efecto sera para todos los span que tengan h1 */
+
