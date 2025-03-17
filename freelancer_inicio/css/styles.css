@@ -1,3 +1,14 @@
+/* seudoselectores los que empiezen con dos puntos */
+/* CUSTOM PROPERTIS */
+:root{
+    --blanco: #ffffff;
+    --color: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris:#757575;
+    
+}
+
 html{
     font-size: 62.5%;
 }
@@ -18,17 +29,37 @@ body{
     /* valor */
     text-align: center;
     font-size: 3.8rem;
+    color: var(--primario);/* esta es una forma de que con el root 
+    usemos los colores de forma mas sencilla*/
 
 }
 
-h1 span{
-    /* 
-    Todo esto son unidades de medidas
+.titulo span {
+    
+    /* Todo esto son unidades de medidas
     px - es el elemneto mas normal de medida
     em - los em miden diferente, viene de la medida padre si se usa el span 
-    rem - la unidad de medida para eso pixeles bajos*/
+    rem - la unidad de medida para eso pixeles bajos*/ 
     font-size: 2rem;
+    /* color: blue; */
 }
 
-/* si pones h1 span el efecto sera para todos los span que tengan h1 */
+/* en cascada tomara el ultimo  */
+/* .titulo span {
+
+    font-size: 2rem;
+    color: red;
+} */
+/* si pones h1 span el efecto sera para todos los span que tengan h1 */ 
+
+/* Especificidad esto aplicara mientras uno sea mas especifico con el selector  */
+/* h1.titulo span {
+
+    font-size: 2rem;
+    color: purple;
+} */ 
+/* 
+span{
+    /* color: aqua !important; -> esto le pasa encima a todo pero esta forma sirven pero no son recomendables */
+/* } */ 
 
