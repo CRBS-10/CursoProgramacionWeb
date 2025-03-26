@@ -20,6 +20,7 @@ XDXDD
 ESTO YA QUE LAS CLASES SON REUTILIZABLES */
 body{
     font-size: 16px;/* 1 rem es igual a 10px */
+    font-family: "Krub", sans-serif;
 }
 /* CON LOS PRIMEROS BLOQUES DE CODIGO PODEMOS ESCRIBIR EN REM EN VEZ DE PIXELES */
 
@@ -31,6 +32,8 @@ body{
     font-size: 3.8rem;
     color: var(--primario);/* esta es una forma de que con el root 
     usemos los colores de forma mas sencilla*/
+    /* Google fonts -> Para encontrar mejores letras */
+    /* Las demas fuentes que aparecen en el texto son las que carga la pagina web, si en dado caso no encuentra alguna */
 
 }
 
